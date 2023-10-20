@@ -10,12 +10,12 @@ The client was carrying out a campaign to upgrade residential customers with DSL
 While the installation of the Fibre service for customers who opted to upgrade their DSL service was carried out without problems, there was an issue where many customers DSL accounts that were marked for termination were not being forwarded to the customer accounts termination team. This caused a backlogs of DSL accounts to be terminated and resulted in those customers being billed for both Fibre and DSL services.
 
 This issue was, in part due to the campaign bundling of two separate services into one – installation of a new service, and termination of a service – and not having a system in place to automatically identify those DSL accounts to be terminated and sending those accounts to the termination team.
-
+<br> </br>
 
 MY ROLE
 
 My role as a Data Engineer was to develop a system of identifying those residential DSL customers who were upgraded to Fibre service but still had an active DSL service that was marked for termination.
-
+<br> </br>
 
 WHAT I DID
 
