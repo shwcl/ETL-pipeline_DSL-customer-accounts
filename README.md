@@ -3,7 +3,7 @@
 
 BACKGROUND
 
-The client was carrying out a campaign to upgrade residential customers with DSL Internet service to Fibre Internet service in a number of locations. 
+The company was carrying out a campaign to upgrade residential customers with DSL Internet service to Fibre Internet service in a number of locations. 
 
 While the installation of the Fibre service for customers who opted to upgrade their DSL service was carried out without problems, there was an issue where many customers DSL accounts that were marked for termination were not being forwarded to the customer accounts termination team. This caused a backlogs of DSL accounts to be terminated and resulted in those customers being billed for both Fibre and DSL services.
 
