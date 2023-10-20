@@ -34,8 +34,8 @@ DEVELOPMENT PROCESS
 Specifically, the script did the following:
 
 
-Calculates the number of non-blank strings in each NAME field of each Fibre account that matches with a non-blank string in corresponding NAME field of the DSL account
-Calculates the number of non-blank strings in the ADDRESS field of each Fibre account that matches with a non-blank string in the corresponding ADDRESS field of the DSL account 
+<li>Calculates the number of non-blank strings in each NAME field of each Fibre account that matches with a non-blank string in corresponding NAME field of the DSL account</li>
+<li>Calculates the number of non-blank strings in the ADDRESS field of each Fibre account that matches with a non-blank string in the corresponding ADDRESS field of the DSL account </li>
 <li>Outputs the results to a new CSV file </li>
 
 
