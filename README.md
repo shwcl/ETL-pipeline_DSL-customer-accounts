@@ -50,7 +50,9 @@ o	Outputs the results to a new CSV file
 TOOLS USED
 
 Python, SQL, Pentaho Data Integration and Snowflake data warehouse
-
+.
+.
+.
 
 
 SUMMARY OF PROJECT’S SUCCESS
