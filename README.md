@@ -49,8 +49,7 @@ o	Outputs the results to a new CSV file
 
 TOOLS USED
 Python, SQL, Pentaho Data Integration and Snowflake data warehouse
-
-
+<br/>
 SUMMARY OF PROJECT’S SUCCESS
 More than 10 hours of manual work was save on a weekly basis by having this process developed and automated. Moreover, the backlogs of request to terminate DSL accounts were reduced significantly within a month.
 
