@@ -1,6 +1,8 @@
 ** Development of ETL pipeline that generated a report on customers upgraded to Fibre Internet service and still have active DSL Internet service **
 
 
+
+
 BACKGROUND
 
 The client was carrying out a campaign to upgrade residential customers with DSL Internet service to Fibre Internet service in a number of locations. 
