@@ -1,7 +1,5 @@
 ** Development of ETL pipeline that generated a report on customers upgraded to Fibre Internet service and still have active DSL Internet service **
-
-
-
+<br> </br>
 
 BACKGROUND
 
@@ -20,8 +18,7 @@ My role as a Data Engineer was to develop a system of identifying those resident
 WHAT I DID
 
 I built an ETL pipeline that generated a report that identified and provided details on customers that were upgraded to Fibre Internet service but still had an active DSL accounts, despite the customer requested the DSL account be terminated
-
-
+<br> </br>
 
 DEVELOPMENT PROCESS
 
@@ -44,13 +41,13 @@ Specifically, the script did the following:
 -	With the new merged dataset, use SQL to generate a final dataset that output all the fields in the merged dataset, along with generate two additional fields (e.g. NAME_MATCH_PERCENT, ADDRESS_MATCH_PERCENT) that calculate the match percentage between the two NAME fields and the two ADDRESS fields respectively
 
 -	Write an SQL script to generate the final report based on the final dataset that includes a condition that specifies the same minimum value for both the NAME_MATCH_PERCENT and ADDRESS_MATCH_PERCENT_MATCH fields (e.g. NAME_MATCH_PERCENT > 20)
-
+<br> </br>
 
 
 TOOLS USED
 Python, SQL, Pentaho Data Integration and Snowflake data warehouse
-<br>
-</br>
+<br></br>
+
 SUMMARY OF PROJECT’S SUCCESS
 More than 10 hours of manual work was save on a weekly basis by having this process developed and automated. Moreover, the backlogs of request to terminate DSL accounts were reduced significantly within a month.
 
