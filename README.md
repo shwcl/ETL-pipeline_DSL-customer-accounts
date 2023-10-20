@@ -9,6 +9,7 @@ This issue was, in part due to the campaign bundling of two separate services in
 
 
 MY ROLE
+
 My role as a Data Engineer was to develop a system of identifying those residential DSL customers who were upgraded to Fibre service but still had an active DSL service that was marked for termination.
 
 
