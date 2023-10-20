@@ -34,9 +34,9 @@ DEVELOPMENT PROCESS
 Specifically, the script did the following:
 
 
-o	Calculates the number of non-blank strings in each NAME field of each Fibre account that matches with a non-blank string in corresponding NAME field of the DSL account
-o	Calculates the number of non-blank strings in the ADDRESS field of each Fibre account that matches with a non-blank string in the corresponding ADDRESS field of the DSL account 
-o	Outputs the results to a new CSV file
+Calculates the number of non-blank strings in each NAME field of each Fibre account that matches with a non-blank string in corresponding NAME field of the DSL account
+Calculates the number of non-blank strings in the ADDRESS field of each Fibre account that matches with a non-blank string in the corresponding ADDRESS field of the DSL account 
+<li>Outputs the results to a new CSV file </li>
 
 
 -	Load the CSV file to a new table in Snowflake and merged it with original dataset 
