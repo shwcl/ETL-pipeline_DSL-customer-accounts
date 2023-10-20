@@ -22,11 +22,11 @@ I built an ETL pipeline that generated a report that identified and provided det
 
 DEVELOPMENT PROCESS
 
--	Generate a dataset of new Fibre accounts that have active DSL accounts. This was done by checking if the ‘contact number’ fields (contact_no1, contact_no2, constact_no3 fields) of the Fibre account has a valid and active DSL telephone number. If one of the ‘contact number’ has an active DSL number, this validate that Fibre account and the DSL account belong to the same customer
+1. Generate a dataset of new Fibre accounts that have active DSL accounts. This was done by checking if the ‘contact number’ fields (contact_no1, contact_no2, constact_no3 fields) of the Fibre account has a valid and active DSL telephone number. If one of the ‘contact number’ has an active DSL number, this validate that Fibre account and the DSL account belong to the same customer
 
--	For further validate that the two accounts belong to the same customer, extract the name and address columns (and primary key fields) of the Fibre account and corresponding DSL account from the dataset to a CSV file 
+2. For further validate that the two accounts belong to the same customer, extract the name and address columns (and primary key fields) of the Fibre account and corresponding DSL account from the dataset to a CSV file 
 
--	Write a Python script to read the CSV file to check if the NAME field of each Fibre account corresponds with the NAME field of its related DSL account and similarly, to check if the ADDRESS field of the Fibre account corresponds with the ADDRESS field its related DSL account. 
+3. Write a Python script to read the CSV file to check if the NAME field of each Fibre account corresponds with the NAME field of its related DSL account and similarly, to check if the ADDRESS field of the Fibre account corresponds with the ADDRESS field its related DSL account. 
 
 Specifically, the script did the following:
 
@@ -36,11 +36,11 @@ Specifically, the script did the following:
 <li>Outputs the results to a new CSV file </li>
 
 
--	Load the CSV file to a new table in Snowflake and merged it with original dataset 
+4. Load the CSV file to a new table in Snowflake and merged it with original dataset 
 
--	With the new merged dataset, use SQL to generate a final dataset that output all the fields in the merged dataset, along with generate two additional fields (e.g. NAME_MATCH_PERCENT, ADDRESS_MATCH_PERCENT) that calculate the match percentage between the two NAME fields and the two ADDRESS fields respectively
+5. With the new merged dataset, use SQL to generate a final dataset that output all the fields in the merged dataset, along with generate two additional fields (e.g. NAME_MATCH_PERCENT, ADDRESS_MATCH_PERCENT) that calculate the match percentage between the two NAME fields and the two ADDRESS fields respectively
 
--	Write an SQL script to generate the final report based on the final dataset that includes a condition that specifies the same minimum value for both the NAME_MATCH_PERCENT and ADDRESS_MATCH_PERCENT_MATCH fields (e.g. NAME_MATCH_PERCENT > 20)
+6. Write an SQL script to generate the final report based on the final dataset that includes a condition that specifies the same minimum value for both the NAME_MATCH_PERCENT and ADDRESS_MATCH_PERCENT_MATCH fields (e.g. NAME_MATCH_PERCENT > 20)
 <br> </br>
 
 
