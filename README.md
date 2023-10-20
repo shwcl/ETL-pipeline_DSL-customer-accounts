@@ -45,3 +45,5 @@ Python, SQL, Pentaho Data Integration and Snowflake data warehouse
 SUMMARY OF PROJECT’S SUCCESS
 More than 10 hours of manual work was save on a weekly basis by having this process developed and automated. Moreover, the backlogs of request to terminate DSL accounts were reduced significantly within a month.
 
+
+https://github.com/shwcl/ETL-pipeline_DSL-customer-accounts/blob/1be4278f1afb8fdb5b9fc02b85705d2fee20fed0/ETL-Pipeline-Architecture.pdf
