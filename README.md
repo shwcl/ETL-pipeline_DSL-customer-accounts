@@ -11,18 +11,20 @@ While the installation of the Fibre service for customers who opted to upgrade t
 This issue was, in part due to the campaign bundling of two separate services into one – installation of a new service, and termination of a service – and not having a system in place to automatically identify those DSL accounts to be terminated and sending those accounts to the termination team.
 <br> </br>
 
-MY ROLE
+
+
+## Objective
 
 My role as a Data Engineer was to develop a system of identifying those residential DSL customers who were upgraded to Fibre service but still had an active DSL service that was marked for termination.
-<br> </br>
+
 
 WHAT I DID
 
-I built an ETL pipeline that generated a report that identified and provided details on customers that were upgraded to Fibre Internet service but still had an active DSL accounts, despite the customer requested the DSL account be terminated
-<br> </br>
+I built an ETL pipeline that generated a report that identified and provided details on customers that were upgraded to Fibre Internet service but still had an active DSL accounts, despite the customer requesting the DSL account to be terminated
 
 
-DEVELOPMENT PROCESS
+
+## Development Process
 
 1. Generate a dataset of new Fibre accounts that have active DSL accounts. This was done by checking if the ‘contact number’ fields (contact_no1, contact_no2, constact_no3 fields) of the Fibre account has a valid and active DSL telephone number. If one of the ‘contact number’ has an active DSL number, this validate that Fibre account and the DSL account belong to the same customer
 
@@ -46,12 +48,12 @@ Specifically, the script did the following:
 <br> </br>
 
 
-TOOLS USED
+# Tools Used
 
 Python, SQL, Pentaho Data Integration and Snowflake data warehouse
 <br></br>
 
-SUMMARY OF PROJECT’S SUCCESS
+# Summary
 
 More than 10 hours of manual work was save on a weekly basis by having this process developed and automated. Moreover, the backlogs of request to terminate DSL accounts were reduced significantly within a month.
 
