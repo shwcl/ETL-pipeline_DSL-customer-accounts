@@ -19,6 +19,8 @@ WHAT I DID
 
 I built an ETL pipeline that generated a report that identified and provided details on customers that were upgraded to Fibre Internet service but still had an active DSL accounts, despite the customer requested the DSL account be terminated
 <br> </br>
+![stamp_paid](https://github.com/shwcl/ETL-pipeline_DSL-customer-accounts/assets/52106536/864ce1ea-dbd8-4541-96f5-12c0af460216)
+
 
 DEVELOPMENT PROCESS
 
