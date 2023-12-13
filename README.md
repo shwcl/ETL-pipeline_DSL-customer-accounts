@@ -16,9 +16,9 @@ This issue was, in part due to the campaign bundling of two separate services in
 2. For further validate that the two accounts belong to the same customer, extract the name and address columns (and primary key fields) of the Fibre account and corresponding DSL account from the dataset to a CSV file 
 
 3. Write a Python script to read the CSV file to check if the NAME field of each Fibre account corresponds with the NAME field of its related DSL account and similarly, to check if the ADDRESS field of the Fibre account corresponds with the ADDRESS field its related DSL account. Specifically, the script did the following:
-  - Calculates the number of non-blank strings in each NAME field of each Fibre account that matches with a non-blank string in corresponding NAME field of the DSL account</li>
-  - Calculates the number of non-blank strings in the ADDRESS field of each Fibre account that matches with a non-blank string in the corresponding ADDRESS field of the DSL account </li>
-  - Outputs the results to a new CSV file </li>
+    - Calculates the number of non-blank strings in each NAME field of each Fibre account that matches with a non-blank string in corresponding NAME field of the DSL account</li>
+    - Calculates the number of non-blank strings in the ADDRESS field of each Fibre account that matches with a non-blank string in the corresponding ADDRESS field of the DSL account </li>
+    - Outputs the results to a new CSV file </li>
 
 
 4. Load the CSV file to a new table in Snowflake and merged it with original dataset 
