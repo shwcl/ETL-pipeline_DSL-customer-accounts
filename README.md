@@ -1,5 +1,6 @@
 # Data Engineering Project
-This project implemented a an ETL pipeline to produce a report on customers upgraded to Fibre Internet service and still have active DSL Internet service **
+# Objective
+This project implemented a an ETL pipeline to produce a report on customers upgraded to Fibre Internet service and still have active DSL Internet service
 <br> </br>
 
 ## Background
@@ -18,7 +19,7 @@ This issue was, in part due to the campaign bundling of two separate services in
 My role as a Data Engineer was to develop a system of identifying those residential DSL customers who were upgraded to Fibre service but still had an active DSL service that was marked for termination.
 
 
-WHAT I DID
+What was 
 
 I built an ETL pipeline that generated a report that identified and provided details on customers that were upgraded to Fibre Internet service but still had an active DSL accounts, despite the customer requesting the DSL account to be terminated
 
@@ -48,12 +49,12 @@ Specifically, the script did the following:
 <br> </br>
 
 
-# Tools Used
+## Tools Used
 
 Python, SQL, Pentaho Data Integration and Snowflake data warehouse
 <br></br>
 
-# Summary
+## Summary
 
 More than 10 hours of manual work was save on a weekly basis by having this process developed and automated. Moreover, the backlogs of request to terminate DSL accounts were reduced significantly within a month.
 
