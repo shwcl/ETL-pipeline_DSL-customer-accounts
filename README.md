@@ -11,7 +11,7 @@ This issue was, in part due to the campaign bundling of two separate services in
 
 
 ## Data Architecture Diagram
-[DSL_accounts_to_be_terminated-Data-Pipeline-Architecture.pdf](https://github.com/shwcl/ETL-pipeline_DSL-customer-accounts/files/13659759/DSL_accounts_to_be_terminated-Data-Pipeline-Architecture.pdf)
+![data_pipeline_architecture](https://github.com/shwcl/ETL-pipeline_DSL-customer-accounts/assets/52106536/89b8816e-f3c1-42ed-b1ac-962a9bf6dd97)
 
 
 ## Development Process
