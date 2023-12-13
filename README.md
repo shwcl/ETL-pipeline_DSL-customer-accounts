@@ -1,6 +1,6 @@
-![data_pipeline_architecture](https://github.com/shwcl/ETL-pipeline_DSL-customer-accounts/assets/52106536/61341d2c-3af6-45f5-b16e-c49a5fb40f88)# Data Engineering Project
+# Data Engineering Project
 This project implemented a an ETL pipeline to produce a report that identified and provided customer account details on customers that were upgraded to Fibre Internet service but still had an active DSL accounts, despite the customer requesting the DSL account to be terminated
-
+<br></br>
 
 ## Background
 The company was carrying out a campaign to upgrade residential customers with DSL Internet service to Fibre Internet service in a number of locations. 
@@ -12,11 +12,12 @@ This issue was, in part due to the campaign bundling of two separate services in
 
 ## Data Architecture Diagram
 ![data_pipeline_architecture](https://github.com/shwcl/ETL-pipeline_DSL-customer-accounts/assets/52106536/89b8816e-f3c1-42ed-b1ac-962a9bf6dd97)
+<br></br>
 
 ##
 Pentaho Data Integration ETL Job
 ![Pentaho_ETL](https://github.com/shwcl/ETL-pipeline_DSL-customer-accounts/assets/52106536/7a1159b4-fd95-41b0-b83f-e78083c69a41)
-
+<br></br>
 
 ## Development Process
 1. Generate a dataset of new Fibre accounts that have active DSL accounts. This was done by checking if the ‘contact number’ fields (contact_no1, contact_no2, constact_no3 fields) of the Fibre account has a valid and active DSL telephone number. If one of the ‘contact number’ has an active DSL number, this validate that Fibre account and the DSL account belong to the same customer
@@ -38,11 +39,10 @@ Pentaho Data Integration ETL Job
 
 
 ## Tools Used
-
 Python, SQL, Pentaho Data Integration and Snowflake data warehouse
 <br></br>
 
-## Summary
 
+## Summary
 More than 10 hours of manual work was save on a weekly basis by having this process developed and automated. Moreover, the backlogs of request to terminate DSL accounts were reduced significantly within a month.
 
