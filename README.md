@@ -1,4 +1,5 @@
 # Data Engineering Project
+## Project Description
 This project implemented a an ETL pipeline to produce a report that identified and provided customer account details on customers that were upgraded to Fibre Internet service but still had an active DSL accounts, despite the customer requesting the DSL account to be terminated
 <br></br>
 
