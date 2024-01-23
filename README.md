@@ -9,7 +9,7 @@ The company was carrying out a campaign to upgrade residential customers with DS
 While the installation of the Fibre service for customers who opted to upgrade their DSL service was carried out without problems, there was an issue where many customers DSL accounts that were marked for termination were not being forwarded to the customer accounts termination team. This caused a backlogs of DSL accounts to be terminated and resulted in those customers being billed for both Fibre and DSL services.
 
 This issue was, in part due to the campaign bundling of two separate services into one – installation of a new service, and termination of a service – and not having a system in place to automatically identify those DSL accounts to be terminated, and subsequently, sending those accounts to the termination team.
-
+<br></br>
 
 
 ## Analysis of solution implemented
@@ -20,7 +20,7 @@ This was done by checking if any of the ‘contact number’ fields (contact_no1
 If any of the ‘contact number’ had an active DSL telephone number, then the Fibre account was then linked to the DSL account. This meant that Fibre account and the DSL account was assumed to belong to the same customer.
 
 To further test this hypothesis, the name and address of the Fibre account was checked against the corresponding name and address of DSL account. In cases where there was a predefined minimum percentage match (e.g., 20% match) between the name of the Fibre account and the name in the DSL account, and similarly, a predefined minimum percentage match between the address of the Fibre account and the address DSL account, it was concluded that those accounts belong to the same customers.
-
+<br></br>
 
 
 ## Data Architecture Diagram
