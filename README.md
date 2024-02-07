@@ -12,7 +12,7 @@ This issue was, in part due to the campaign bundling of two separate services in
 <br></br>
 
 
-## Analysis of solution implemented
+## solution implemented
 Because there was no information in a given customer’s Fibre account record that indicated if such account has a corresponding DSL account, and secondly, if that DSL account is active, a method developed to get this information.
 
 This was done by checking if any of the ‘contact number’ fields (contact_no1, contact_no2, constact_no3 fields) of each new Fibre account had an active DSL telephone number (active means not terminated). 
